@@ -18,33 +18,13 @@ switch (day) {
 */
 var day = prompt("Please enter day","monday");
 var result;
-if (day == "monday"){
+if (day == "monday" || day == "tuesday" || day == "wednesday" || day == "thursday" || day == "friday"){
     result = "Working day"
 } else {
-    if(day == "tuesday"){
-        result = "Working day"
-    } else {
-        if(day == "wednesday"){
-            result = "Working day"
-        } else {
-            if (day == "thuesday"){
-                result = "Working day"
-            } else {
-                if (day == "friday") {
-                    result = "Working day"
-                } else {
-                    if (day == "saturday"){
-                        result = "Weekend"
-                    } else {
-                        if (day == "sunday") {
-                            result = "Weekend"
-                        }
-                    }
-                }
-            }
-        }
-    }  
-}
+    if(day == "saturday" || day == "sunday"){
+        result="Weekend"
+    }
+}    
 alert(result);
 
 
