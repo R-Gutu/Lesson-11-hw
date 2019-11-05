@@ -1,21 +1,21 @@
-/* var day = prompt("Please enter day", "monday");
-switch (day) {
-  case "friday":
-      case "sunday":
-          case "tuesday":
-              case "wednesday":
-                   case "monday":
+ var day = prompt("Please enter day", "monday");
+switch (day.toLowerCase()) {
+    case "friday":
+    case "thursday":
+    case "tuesday":
+    case "wednesday":
+    case "monday":
     alert("Working day");
     break;
     case "saturday":
-        case "sunday":
+    case "sunday":
     alert("Weekend");
     break;
   default:
     alert("I can not define,please try another value");
     break;
 }
-*/
+/*
 var day = prompt("Please enter day","monday");
 var result;
 if (day == "monday" || day == "tuesday" || day == "wednesday" || day == "thursday" || day == "friday"){
@@ -27,4 +27,4 @@ if (day == "monday" || day == "tuesday" || day == "wednesday" || day == "thursda
 }    
 alert(result);
 
-
+*/
